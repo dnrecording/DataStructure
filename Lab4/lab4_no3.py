@@ -53,7 +53,7 @@ def encodemsg(q1, q2):
                 q2.enQueue(q2.items[i])
     for d in range(length):
         q1.deQueue()
-    print('Encode message is :', q1.items)
+    print('Encode message is : ', q1.items)
 
 # ลดค่าตามเลข ascii
 def decodemsg(q1, q2):
@@ -82,7 +82,7 @@ def decodemsg(q1, q2):
                 q1.enQueue(s)
     for d in range(length):
         q1.deQueue()
-    print('Decode message is :', q1.items)
+    print('Decode message is : ', q1.items)
 
 ####################################################################
 
